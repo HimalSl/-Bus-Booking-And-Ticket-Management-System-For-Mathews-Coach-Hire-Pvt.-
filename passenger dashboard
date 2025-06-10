@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Passenger Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="dashboard">
+    <h1>Welcome, Passenger</h1>
+    <nav>
+      <button>Book Ticket</button>
+      <button>My Bookings</button>
+      <button>Logout</button>
+    </nav>
+    <section>
+      <h2>Upcoming Buses</h2>
+      <table>
+        <tr><th>Date</th><th>Time</th><th>Route</th><th>Available Seats</th><th>Action</th></tr>
+        <tr><td>12-06-2025</td><td>9:00 AM</td><td>Dublin → Cork</td><td>15</td><td><button>Book</button></td></tr>
+      </table>
+    </section>
+  </div>
+</body>
+</html>
